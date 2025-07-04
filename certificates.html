@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BlackLogic | Home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #0f0f0f;
+      color: #ffffff;
+    }
+    
+  body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0f0f0f;
+    color: #ffffff;
+  }
+  .top-image {
+    width: 300px; /* Reduced width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 20px auto; /* Center image & space below */
+  }
+  header {
+    background: linear-gradient(to right, #1f1f1f, #000000);
+    padding: 60px 20px;
+    text-align: center;
+  }
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #00ffcc;
+  }
+  header p {
+    font-size: 1.2rem;
+    color: #dddddd;
+  }
+  /* ... rest of your styles ... */
+
+
+    header {
+      background: linear-gradient(to right, #1f1f1f, #000000);
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      color: #00ffcc;
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    header p {
+      color: #dddddd;
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .section h2 {
+      color: #00ffcc;
+      font-size: 2rem;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .certificate-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-bottom: 50px;
+    }
+
+    .certificate-card {
+      background-color: #1a1a1a;
+      border: 1px solid #00ffcc20;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .certificate-card:hover {
+      transform: scale(1.02);
+      border-color: #00ffcc;
+    }
+
+    .certificate-title {
+      font-weight: bold;
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+      color: #00ffcc;
+    }
+
+    .certificate-img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 8px;
+      background-color: #333;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #555;
+      background-color: #1a1a1a;
+    }
+    
+    }
+.explore-btn-container {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.explore-btn {
+    background-color: #4CAF50; /* Light green (same as your header text) */
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+
+
+.explore-btn:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+    transform: scale(1.05);
+}
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: #111;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 2px solid #00f2ff;
+  z-index: 1000;
+}
+
+.bottom-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+  flex: 1;
+}
+
+.bottom-nav a i {
+  font-size: 20px;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.bottom-nav a span {
+  font-size: 12px;
+}
+..
+  </style>
+</head>
+<body>
+    
+      <!-- Outfit Image Section -->
+  <img src="Fit.png" alt="Black Logic Suit" class="top-image">
+      
+<!-- Bottom Navigation Bar -->
+<div class="bottom-nav">
+  <a href="index.html"><i class="fas fa-home"></i><span>Home</span></a>
+  <a href="certificates.html"><i class="fas fa-certificate"></i><span>Certs</span></a>
+  <a href="projects.html"><i class="fas fa-briefcase"></i><span>Projects</span></a>
+  <a href="#live"><i class="fas fa-link"></i><span>Live</span></a>
+</div>
+
+
+  <header>
+    <h1>Certificates</h1>
+    <p>Explore my qualifications and learning journeys</p>
+  </header>
+  <div class="section">
+    <h2>Artificial Intelligence [Microsoft xDUT]</h2>
+    <div class="certificate-grid">
+      <!-- Repeat this block 12 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">1.AI Fundementals</div>
+        <img src="AIF.jpg" alt="AI Certificate" class="certificate-img" />
+      </div>
+      <!-- ... continue until 12 -->
+      
+    
+    <div class="certificate-grid">
+      <!-- Repeat this block 12 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">2.AI & Accessibility</div>
+        <img src="AIA.jpg" alt="AI Certificate" class="certificate-img" />
+      
+      </div>
+      
+    
+    <div class="certificate-grid">
+      <!-- Repeat this block 12 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">3.Generative AI</div>
+        <img src="Gen.jpg" alt="AI Certificate" class="certificate-img" />
+      
+      </div>
+      
+    
+    <div class="certificate-grid">
+      <!-- Repeat this block 12 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">4.Responsible AI</div>
+        <img src="RAI.jpg" alt="AI Certificate" class="certificate-img" />
+      
+      </div>
+     
+    
+    <div class="certificate-grid">
+      <!-- Repeat this block 12 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">5.Search Technology</div>
+        <img src="Search.jpg" alt="AI Certificate" class="certificate-img" />
+      
+      </div>
+      <div class="certificate-grid">
+      <!-- Repeat this block 12 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">6.Microsoft Copilot</div>
+        <img src="Copilot.jpg" alt="AI Certificate" class="certificate-img" />
+      
+      </div>
+      
+      <div class="section">
+    <h2>Artificial Intelligence & Machine Learning-Azure AI [Microsoft]</h2>
+    <div class="certificate-grid">
+      <!-- Repeat this block 12 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">1.Design A Machine Learning operation solutions</div>
+        <img src="Design.jpg" alt="AI Certificate" class="certificate-img" />
+      </div>
+      <!-- ... continue until 12 -->
+      
+    
+    <div class="certificate-grid">
+      <!-- Repeat this block 12 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">2.Azure AI & ML Fundementals</div>
+        <img src="Azure.jpg" alt="AI Certificate" class="certificate-img" />
+      
+      </div>
+      
+    
+    <div class="certificate-grid">
+      <!-- Repeat this block 12 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">3.Intro to Gen AI concept</div>
+        <img src="Genz.jpg" alt="AI Certificate" class="certificate-img" />
+      
+      </div>
+      
+    
+    <div class="certificate-grid">
+      <!-- Repeat this block 12 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">4.Azure AI Computer Vision</div>
+        <img src="Vision.jpg" alt="AI Certificate" class="certificate-img" />
+      
+      </div>
+     
+    
+    <div class="certificate-grid">
+      <!-- Repeat this block 12 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">5.Fundementals of Facial Recognition</div>
+        <img src="Face.jpg" alt="AI Certificate" class="certificate-img" />
+      
+      </div>
+       <div class="certificate-grid">
+      <!-- Repeat this block 12 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">6.Fundementals of Computer Vision</div>
+        <img src="vision2.jpg" alt="AI Certificate" class="certificate-img" />
+      
+      </div>
+      
+        <div class="certificate-grid">
+      <!-- Repeat this block 12 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">7.Fundementals of Knowledge Mining and Azure AI Search</div>
+        <img src="mine.jpg" alt="AI Certificate" class="certificate-img" />
+      
+      </div>
+        <div class="certificate-grid">
+      <!-- Repeat this block 12 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">8.Fundementals of Azure AI Document Intelligence</div>
+        <img src="Doc.jpg" alt="AI Certificate" class="certificate-img" />
+      
+      </div>
+        <div class="certificate-grid">
+      <!-- Repeat this block 12 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">9.Fundementals of Azure AI services </div>
+        <img src="services.jpg" alt="AI Certificate" class="certificate-img" />
+      
+      </div>
+        <div class="certificate-grid">
+      <!-- Repeat this block 12 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">10.Azure Machine Learning</div>
+        <img src="Machine2.jpg" alt="AI Certificate" class="certificate-img" />
+      
+      </div>
+        <div class="certificate-grid">
+      <!-- Repeat this block 12 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">11.Data Availability in Azure Machine Learning </div>
+        <img src="data.jpg" alt="AI Certificate" class="certificate-img" />
+      
+      </div>
+        <div class="certificate-grid">
+      <!-- Repeat this block 12 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">12.Compute Targert in Azure ML </div>
+        <img src="Compute.jpg" alt="AI Certificate" class="certificate-img" />
+      
+      </div>
+     
+     
+     
+     <div class="section">
+    <h2>Deployment and Version Control</h2>
+    <div class="certificate-grid">
+      <!-- Repeat this block 12 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">1.Introduction to Github</div>
+        <img src="Github.jpg" alt="AI Certificate" class="certificate-img" />
+      </div>
+      <!-- ... continue until 12 -->
+      
+    
+    <div class="certificate-grid">
+      <!-- Repeat this block 12 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">2.Introduction to Git</div>
+        <img src="git.jpg" alt="AI Certificate" class="certificate-img" />
+      
+      </div>
+      
+    
+    <div class="certificate-grid">
+      <!-- Repeat this block 12 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">3.Design A Model Deployment Solution </div>
+        <img src="solution.jpg" alt="AI Certificate" class="certificate-img" />
+      
+      </div>
+      
+      </div>
+     
+     
+     
+     
+     
+
+  <div class="section">
+    <h2>Artificial Intelligence & Machine Learning (13)</h2>
+    <div class="certificate-grid">
+      <!-- Repeat this block 12 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">1.Prompt Engineering</div>
+        <img src="Prompt Engineering_certificate.jpg" alt="AI Certificate" class="certificate-img" />
+      </div>
+      <!-- ... continue until 12 -->
+      
+    
+    <div class="certificate-grid">
+      <!-- Repeat this block 12 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">2.Machine Learning</div>
+        <img src="ML for Beginners_certificate.jpg" alt="AI Certificate" class="certificate-img" />
+      
+      </div>
+      
+    
+    <div class="certificate-grid">
+      <!-- Repeat this block 12 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">3.Large Language Models</div>
+        <img src="Introduction to LLMs_certificate.jpg" alt="AI Certificate" class="certificate-img" />
+      
+      </div>
+      
+    
+    <div class="certificate-grid">
+      <!-- Repeat this block 12 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">4.AI-Powered A/B Testing</div>
+        <img src="AI-Powered A_B Testing_certificate.jpg" alt="AI Certificate" class="certificate-img" />
+      
+      </div>
+     
+    
+    <div class="certificate-grid">
+      <!-- Repeat this block 12 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">5.Project Planning with AI</div>
+        <img src="Project Planning with AI_certificate.jpg" alt="AI Certificate" class="certificate-img" />
+      
+      </div>
+      
+    
+    <div class="certificate-grid">
+      <!-- Repeat this block 12 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">6. Ethical AI Foundations</div>
+        <img src="Ethical AI Foundations_certificate.jpg" alt="AI Certificate" class="certificate-img" />
+     
+      </div>
+     
+    
+    <div class="certificate-grid">
+      <!-- Repeat this block 12 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">7.AI In Data Analysis</div>
+        <img src="AI in Data Analysis_certificate.jpg" alt="AI Certificate" class="certificate-img" />
+      
+      </div>
+
+    
+    <div class="certificate-grid">
+      <!-- Repeat this block 12 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">8.Research With AI</div>
+        <img src="Research with AI_certificate.jpg" alt="AI Certificate" class="certificate-img" />
+        </div>
+        <div class="certificate-grid">
+      <!-- Repeat this block 9 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">9.Social Media Markerting with Ai
+        <img src="Social Media Marketing with AI_certificate.jpg" alt="Code Certificate" class="certificate-img" />
+      </div>
+     </div>   
+        </div>
+        
+    
+
+    <div class="certificate-grid">
+      <!-- Repeat this block 12 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">10.SEO with AI</div>
+        <img src="SEO with AI_certificate.jpg" alt="AI Certificate" class="certificate-img" />
+      
+      </div>
+      
+    
+    <div class="certificate-grid">
+      <!-- Repeat this block 12 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">11.Visualize Your Data</div>
+        <img src="Visualize Your Data_certificate.jpg" alt="AI Certificate" class="certificate-img" />
+      
+      </div>
+      
+      
+    
+    <div class="certificate-grid">
+      <!-- Repeat this block 12 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">12.Think Creatively With AI</div>
+        <img src="Think Creatively with AI_certificate.jpg" alt="AI Certificate" class="certificate-img" />
+    
+    </div>
+         
+    
+        
+    <div class="certificate-grid">
+      <!-- Repeat this block 12 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">13.Brainstorm With AI</div>
+        <img src="Brainstorm with AI_certificate.jpg" alt="AI Certificate" class="certificate-img" />
+        </div>
+      
+
+      </div>
+    
+    </div>
+
+    <h2>Graphic Design (3)</h2>
+    <div class="certificate-grid">
+      <div class="certificate-card">
+        <div class="certificate-title">1. 10 Design Certificate</div>
+        <img src="Canva.jpg" alt="Design Certificate" class="certificate-img" />
+      </div>
+      <div class="certificate-card">
+        <div class="certificate-title">2. 50 Design Certificate</div>
+        <img src="Canva2.jpg" alt="Design Certificate" class="certificate-img" />
+      </div>
+      
+            <div class="certificate-card">
+        <div class="certificate-title">3. 100 Design Certificate</div>
+        <img src="Master.jpg" alt="Design Certificate" class="certificate-img" />
+      </div>
+      
+
+      </div>
+    </div>
+
+    <h2>Web Development (5)</h2>
+    <div class="certificate-grid">
+      <!-- Repeat this block 7 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">1.Web Dev Certificate</div>
+        <img src="Web.jpg" alt="Web Dev Certificate" class="certificate-img" />
+      </div>
+      
+      <div class="certificate-grid">
+      <!-- Repeat this block 7 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">2.HTML Bronze Certificate</div>
+        <img src="html.jpg" alt="Web Dev Certificate" class="certificate-img" />
+      </div>
+      
+      <div class="certificate-grid">
+      <!-- Repeat this block 7 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">3.CSS Bronze Certificate</div>
+        <img src="CSS.jpg" alt="Web Dev Certificate" class="certificate-img" />
+      </div>
+      
+          <div class="certificate-grid">
+      <!-- Repeat this block 7 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">4.HTML Silver Certificate</div>
+        <img src="html2.jpg" alt="Web Dev Certificate" class="certificate-img" />
+      </div>
+
+
+      </div>
+    <div class="certificate-grid">
+      <!-- Repeat this block 7 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">5.CSS Silver Certificate</div>
+        <img src="CSS2.jpg" alt="Web Dev Certificate" class="certificate-img" />
+      </div>
+      <!-- ... continue until 7 -->
+    </div>
+
+    <h2>Code & Programming (7)</h2>
+    <div class="certificate-grid">
+      <!-- Repeat this block 9 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">1.Python Basics</div>
+        <img src="python.jpg" alt="Code Certificate" class="certificate-img" />
+      </div>
+      <!-- ... continue until 9 -->
+       <div class="certificate-grid">
+      <!-- Repeat this block 9 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">2.Python Intermediate</div>
+        <img src="python2.jpg" alt="Code Certificate" class="certificate-img" />
+      </div>
+      <div class="certificate-grid">
+      <!-- Repeat this block 9 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">3. Introduction to C
+        <img src="Introduction to C_certificate.jpg" alt="Code Certificate" class="certificate-img" />
+      </div>
+     </div>
+       <div class="certificate-grid">
+      <!-- Repeat this block 9 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">4. Java Basics</div>
+        <img src="Introduction to Java_certificate.jpg" alt="Code Certificate" class="certificate-img" />
+      </div>
+      
+       <div class="certificate-grid">
+      <!-- Repeat this block 9 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">5. JavaScript Basics</div>
+        <img src="Introduction to JavaScript_certificate.jpg" alt="Code Certificate" class="certificate-img" />
+        
+         <div class="certificate-grid">
+      <!-- Repeat this block 9 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">6.SQL Intermediate</div>
+        <img src="SQL Intermediate_certificate.jpg" alt="Code Certificate" class="certificate-img" />
+      </div>
+      <div class="certificate-grid">
+      <!-- Repeat this block 9 times -->
+      <div class="certificate-card">
+        <div class="certificate-title">6.Tech for Everyone
+        <img src="Tech for Everyone_certificate.jpg" alt="Code Certificate" class="certificate-img" />
+      </div>
+      
+
+    </div>
+
+  <footer>
+    &copy; 2025 Black Logic | All rights reserved.
+  </footer>
+</body>
+
+</html>
